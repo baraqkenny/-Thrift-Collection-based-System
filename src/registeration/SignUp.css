@@ -1,0 +1,28 @@
+.sign__up__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.form__container{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    line-height: 5rem;
+}
+
+
+
+.wallpaper{
+    width: 50%;
+    background-color: red;
+    height: 100vh;
+}
