@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './SignUp.css';
 
 function SignUp() {
@@ -12,16 +13,21 @@ function SignUp() {
    <section className="sign__up__container">
 
     <section className="form__container">
+   
     <form className='form'>
-      <h1>Sign Up</h1>
-      <label htmlFor="name">Name</label>
-      <input type="text" name="name"  />
+    <h1 className='sign__up__heading'>Sign Up to Thrift</h1>
+      <label htmlFor="name" className="sign__up__label">Name</label>
+      <input type="text" name="name"  className="sign__up__input"/>
 
-      <label htmlFor="email">Email</label>
-      <input type="email" name="email"/>
+      <label htmlFor="email" className="sign__up__label">Email</label>
+      <input type="email" name="email" className="sign__up__input"/>
 
-      <label htmlFor="password">Password</label>
-      <input type="password" name="password"  />
+      <label htmlFor="password" className="sign__up__label">Password</label>
+      <input type="password" name="password" className="sign__up__input"/>
+
+      <input type="submit" className="sign__up__btn" value="Sign Up"/>
+    
+      <p className='have__an__account__text'>Already have an account? <Link className='login__link' to="/">Login</Link> </p>
     </form>
     </section>
 

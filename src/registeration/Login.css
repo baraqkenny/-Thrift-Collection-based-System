@@ -1,11 +1,11 @@
-.sign__up__container{
+.login__container{
     display: flex;
     align-items: center;
     justify-content: space-between;
     
 }
 
-.form__container{
+.login__form__container{
     width: 50%;
     height: 100vh;
     display: flex;
@@ -14,22 +14,21 @@
     line-height: 3rem;
 }
 
-.sign__up__heading{
+.login__heading{
     text-align: center;
     font-size: 30px;
 }
 
-.form{
+.login__form{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;  
 }
 
-.sign__up__label{
+.login__label{
     font-size: 17px;
 }
 
-.sign__up__input{
+.login__input{
     width: 25rem;
     height: 2.5rem;
     border: 2px solid;
@@ -37,7 +36,7 @@
     
 }
 
-.sign__up__btn{
+.login__btn{
     margin-top: 1.5rem;
     padding: 15px 20px;
     background-color: rgb(0, 153, 255);
@@ -47,7 +46,7 @@
     color: #fff;
 }
 
-.have__an__account__text{
+.Dont__have__an__account__text{
     text-align: center;
     font-size: 17px;
 }
